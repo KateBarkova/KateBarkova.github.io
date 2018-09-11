@@ -221,6 +221,16 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
 }
 
+.portfolio__info-text a {
+  text-decoration: underline;
+}
+
+.portfolio__info-text a:hover,
+.portfolio__info-text a:focus {
+  color: #FF530D;
+}
+
+
 .portfolio__btn-wrapper {
   display: flex;
   justify-content: space-between;
