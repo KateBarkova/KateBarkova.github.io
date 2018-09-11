@@ -1,27 +1,237 @@
+
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>Barkova Kate: Portfolio</title>
-<!-- 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-		<link href="css/normalize.css" rel="stylesheet">
-		<link href="css/style.min.css" rel="stylesheet"> -->
-	</head>
-	<body>
-			<header class="main-header">
-			
-			</header>
-			<main class="container">
-				<a href="https://katebarkova.github.io/672853-sedona">Учебный проект HTML-Academy "Седона"</a>
-				<a href="https://katebarkova.github.io/672853-mishka">Учебный проект HTML-Academy "Mishka"</a>
-				<a href="https://katebarkova.github.io/672853-code-and-magick">Учебный проект HTML-Academy "Code and magick"</a>
-				<a href="https://katebarkova.github.io/672853-keksobooking">Учебный проект HTML-Academy "Keksobooking"</a>
-				<a href="https://katebarkova.github.io/avito/index.html">Тестовое задание Avito</a>
-
-			</main>
-			<footer class="footer main-footer">	
-				
-			</footer>		
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Резюме Барковой Екатерины на front-end developer</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="page-header">
+        <h1 class="page-header__title visually-hidden">Резюме на должность front-end developer</h1>
+        <nav class="main-nav" id="menu">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#about">О себе</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#education">Образование</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#skils">Навыки</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#portfolio">Портфолио</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-container">
+        <article class="about container" id="about">
+          <h2 class="about__title title">О себе</h2>
+          <div class="about__wrapper">
+            <img src="img/photo.jpg" srcset="img/photo.jpg" width="240" height="240" alt="Фото">
+            <ul class="about__info">
+              <li class="about__item">Баркова Екатерина</li>
+              <li class="about__item">Возраст: 29 лет</li>
+              <li class="about__item">Город: Москва</li>
+              <li class="about__item">Семейное положение: замужем</li>
+              <li class="about__item">Дети: нет</li>
+            </ul>
+          </div>
+        </article>
+        <article class="education container" id="education">
+          <h2 class="education__title title">Образование</h2>
+          <p class="education__text">Выпускник профессии «Фронтенд-разработчик»</p>
+          <a class="education__logo" href="https://htmlacademy.ru/profession/frontender" target="_blank">
+          HTML Academy
+            <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 108.08 36.85"  width="115" height="41">
+              <title>logo-htmlacademy-small1</title>
+              <path d="M44.61,26.88a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,39.63,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1,0-2.16.33-2.16,1.38h0Zm12.36-6.11a5,5,0,0,1,2.57.64V22a4.08,4.08,0,0,0-2.3-.7,2.75,2.75,0,1,0,0,5.49,5,5,0,0,0,2.43-.64v1.71a6.27,6.27,0,0,1-2.76.57A4.21,4.21,0,0,1,46,24.51q0-.21,0-0.41a4.32,4.32,0,0,1,4.18-4.46h0.38Zm12.17,7.24a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,57.73,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1.06,0-2.16.33-2.16,1.38h0ZM73,16V28.2H71.35V26.88a3.88,3.88,0,0,1-3.19,1.54,4.4,4.4,0,0,1,0-8.78,3.81,3.81,0,0,1,3,1.3V16H73Zm-4.53,5.22a2.76,2.76,0,1,0,0,5.52A2.86,2.86,0,0,0,71.15,25V23A2.91,2.91,0,0,0,68.49,21.27ZM79,19.64c3.31,0,4.46,2.68,3.92,5.09H76.7c0.21,1.5,1.67,2.11,3.19,2.11a6.11,6.11,0,0,0,2.64-.59v1.6a7.14,7.14,0,0,1-3,.57C77,28.42,74.78,27,74.78,24a4.18,4.18,0,0,1,4-4.39H79Zm0.09,1.54a2.28,2.28,0,0,0-2.44,2.1v0.06H81.3A2,2,0,0,0,79.13,21.18Zm5.73,7V19.87h1.65v1a3.81,3.81,0,0,1,2.78-1.27A2.86,2.86,0,0,1,91.89,21a4.12,4.12,0,0,1,2.91-1.33A3.06,3.06,0,0,1,98,23V28.2h-1.9V23.05a1.59,1.59,0,0,0-1.42-1.75H94.42a2.8,2.8,0,0,0-2.07,1.12V28.2h-1.9V23.05A1.59,1.59,0,0,0,89,21.31H88.8a3,3,0,0,0-2.21,1.29v5.63H84.86Zm21.31-8.33h1.9l-3.91,9.46c-0.9,2.17-2.09,2.86-3.35,2.86a4.76,4.76,0,0,1-1.1-.14V30.46a2.86,2.86,0,0,0,.85.12c0.9,0,1.58-.64,2.07-1.9l0.17-.42-4-8.4h2l2.86,6.29ZM38.73,1.46V6.22a3.81,3.81,0,0,1,2.7-1.14,3.25,3.25,0,0,1,3.44,3.4v5.15H43V8.72a1.81,1.81,0,0,0-1.61-2h-0.3a2.93,2.93,0,0,0-2.32,1.39v5.52h-1.9V1.46h1.9ZM49.94,2.31v3h3V6.91h-3v3.81c0,1.1.5,1.46,1.58,1.46a4.49,4.49,0,0,0,1.69-.33v1.6A6.8,6.8,0,0,1,51,13.8a2.55,2.55,0,0,1-2.86-2.74V6.89H46.58V5.26h1.5V2.74Zm5.4,11.31V5.28H57v1A3.81,3.81,0,0,1,59.77,5a2.86,2.86,0,0,1,2.6,1.33A4.12,4.12,0,0,1,65.28,5,3.06,3.06,0,0,1,68.44,8.4v5.21h-1.9V8.46a1.59,1.59,0,0,0-1.42-1.75H64.89a2.8,2.8,0,0,0-2.07,1.12v5.78h-1.9V8.46A1.59,1.59,0,0,0,59.5,6.71H59.27A3,3,0,0,0,57.06,8v5.63H55.34ZM71.17,1.45H73V13.6H71.17V1.45ZM14.71,0H14.55L0,1.54V28.21l14.55,8.66,14.55-8.66V1.54Zm12.5,27.1L14.55,34.64,1.9,27.12V16.18l12.59,7.5V25L5.86,19.9v1.31l8.68,5.21v1.39L5.87,22.65V24l8.68,5.21,8.75-5.24V18.31L27.2,16V27.12Zm0-12.53-3.48,2-1.6,1L14.51,13v1.31L21,18.23H21l-0.14.09-1,.54-5.37-3.2V17l4.24,2.52-1,.67-3.2-1.9v1.31l2.1,1.24L14.5,22.1,2,14.65,14.51,7.11Zm0-1.32L14.49,5.76,1.91,13.25v-10L14.56,1.92,27.21,3.25v10h0Z" transform="translate(0 -0.02)" fill="#231f20"/>
+            </svg>
+          </a>
+          <ul class="education__list">
+            <li class="education__item"><a class="education__intensive" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+              Профессиональный HTML и CSS, уровень 1
+            </a></li>
+            <li class="education__item"><a class="education__intensive" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+              Профессиональный HTML и CSS, уровень 2
+            </a></li>
+            <li class="education__item"><a class="education__intensive" href="https://htmlacademy.ru/intensive/javascript" target="_blank">
+              Профессиональный JavaScript, уровень 1
+            </a></li>
+          </ul>
+          <a class="education__up up" href="#menu">В начало страницы</a>
+        </article>
+        <article class="skils container" id="skils">
+          <h2 class="skils__title title">Знания и навыки</h2>
+          <ul class="skils__list">
+            <li class="skils__item">HTML5 и CSS3</li>
+            <li class="skils__item">Less и Sass</li>
+            <li class="skils__item">JS ES5</li>
+            <li class="skils__item">Работа с DOM</li>
+            <li class="skils__item">Работа с API</li>
+            <li class="skils__item">Работа с AJAX, JSON, JSONP</li>
+            <li class="skils__item">Работа с API карт</li>
+            <li class="skils__item">Canvas</li>
+            <li class="skils__item">Разметка по методологии БЭМ</li>
+            <li class="skils__item">Валидная разметка по W3C</li>
+            <li class="skils__item">Адаптивная и резиновая верстка</li>
+            <li class="skils__item">Верстка по Pixel Perfect</li>
+            <li class="skils__item">Поключение SVG и адаптивных изображений</li>
+            <li class="skils__item">Опыт работы с Git и GitHub</li>
+            <li class="skils__item">Навыки использования консоли</li>
+            <li class="skils__item">Автоматизация сборки проекта с использованием Gulp</li>
+            <li class="skils__item">Навыки владения графическими редакторами</li>
+          </ul>
+          <a class="skils__up up" href="#menu">В начало страницы</a>
+        </article>
+        <article class="portfolio" id="portfolio">
+          <h2 class="portfolio__title title">Портфолио</h2>
+          <section class="portfolio__item">
+            <h3 class="portfolio__item-title">Седона</h3>
+            <div class="portfolio__container">
+              <a class="portfolio__item-image" href="https://katebarkova.github.io/672853-sedona/" target="_blank">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="img/sedona-tablet@1x.jpg">
+                  <img src="img/sedona-mobile@1x.jpg" alt="Седона">
+                </picture>
+              </a>
+              <div class="portfolio__wrapper">
+                <p class="portfolio__info-text">Выпускной проект Профессионального HTML и CSS, уровень 1.</p>
+                <p class="portfolio__info-text">Двухстраничный макет, резиновая верстка (от 768px до 1200px). Кнопка "Поиск гостиницы" открывает форму поиска. Вторая страница – пункт меню "Гостиницы".</p>
+                <div class="portfolio__btn-wrapper">
+                  <a class="portfolio__btn" href="https://github.com/KateBarkova/672853-sedona.git" target="_blank">Открыть репозиторий</a>
+                  <a class="portfolio__btn" href="https://KateBarkova.github.io/672853-sedona/" target="_blank">Открыть страницу</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio__item">
+            <h3 class="portfolio__item-title">Мишка</h3>
+            <div class="portfolio__container">
+              <a class="portfolio__item-image" href="https://katebarkova.github.io/672853-mishka/" target="_blank">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="img/mishka-tablet@1x.jpg">
+                  <img src="img/mishka-mobile@1x.jpg" alt="Мишка">
+                </picture>
+              </a>
+              <div class="portfolio__wrapper">
+                <p class="portfolio__info-text">Выпускной проект Профессионального HTML и CSS, уровень 2.</p>
+                <p class="portfolio__info-text">Трехстраничный макет, адаптивный под мобильный (320px) планшетный (768px) и десктопный (1150px) вьюпорт.</p>
+                <p class="portfolio__info-text">Использованы адаптивные изображения под разные вьюпорты и под ретиновый экран.</p>
+                <p class="portfolio__info-text">Разметка по БЭМ. Меню в мобильной версии открывается по нажатию на иконку. При нажатии на кнопку корзины – открывается подменю добавления товаров в корзину. Вторая страница – пункт меню "Каталог", третья страница –  пункт "Вязание на заказ".</p>
+                <div class="portfolio__btn-wrapper">
+                  <a class="portfolio__btn" href="https://github.com/KateBarkova/672853-mishka.git" target="_blank">Открыть репозиторий</a>
+                  <a class="portfolio__btn" href="https://KateBarkova.github.io/672853-mishka/" target="_blank">Открыть страницу</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio__item">
+            <h3 class="portfolio__item-title">Кексобукинг</h3>
+            <div class="portfolio__container">
+              <a class="portfolio__item-image" href="https://katebarkova.github.io/672853-keksobooking/" target="_blank">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="img/keksobooking-tablet@1x.jpg">
+                  <img src="img/keksobooking-mobile@1x.jpg" alt="Кексобукинг">
+                </picture>
+              </a>
+              <div class="portfolio__wrapper">
+                <p class="portfolio__info-text">Выпускной проект Профессионального JS, уровень 1.</p>
+                <p class="portfolio__info-text">Кексобукинг – сервис размещения объявлений о сдаче в аренду недвижимости в центре. Пользователям предоставляется возможность размещать объявления о своей недвижимости или просматривать уже размещённые объявления.</p>
+                <p class="portfolio__info-text">Данные о размещенных объявлениях загружаются с сервера, на их основе отрисовываются маркеры на карте. При клике на маркер отображается карточка, содержащая подробную информацию об объявлении. Данные можно отфильтровать по типу жилья, его стоимости, количеству комнат и гостей, а также по наличию дополнительных удобств.</p>
+                <p class="portfolio__info-text">При размещении своего объявления заполняемая форма проходит валидацию.</p>
+                <p class="portfolio__info-text">Значение поля «адрес» автоматически выставляется при перемещении главной метки по карте.</p>
+                <p class="portfolio__info-text">После заполнения всех данных, при нажатии на кнопку «Опубликовать», все данные из формы с помощью AJAX-запроса отправляются на сервер.</p>
+                <p class="portfolio__info-text">При успешной отправке формы, страница, не перезагружаясь, переходит в изначальное неактивное состояние.</p>
+                <p class="portfolio__info-text">Если при отправке данных произошла ошибка запроса, показывается соответствующее сообщение.</p>
+                <div class="portfolio__btn-wrapper">
+                  <a class="portfolio__btn" href="https://github.com/KateBarkova/672853-keksobooking.git" target="_blank">Открыть репозиторий</a>
+                  <a class="portfolio__btn" href="https://KateBarkova.github.io/672853-keksobooking/" target="_blank">Открыть страницу</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio__item">
+            <h3 class="portfolio__item-title">Code and magick</h3>
+            <div class="portfolio__container">
+              <a class="portfolio__item-image" href="https://katebarkova.github.io/672853-code-and-magick/" target="_blank">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="img/code-and-magick-tablet@1x.jpg">
+                  <img src="img/code-and-magick-mobile@1x.jpg" alt="Code and magick">
+                </picture>
+              </a>
+              <div class="portfolio__wrapper">
+                <p class="portfolio__info-text">Учебный проект Профессионального JS, уровень 1.</p>
+                <p class="portfolio__info-text">В проекте реализовано:</p>
+                <ul>
+                  <li>при нажатии на аватарку открывается окно настроек персонажа;</li>
+                  <li>у волшебника можно поменять цвет мантии, глаз и фаербола;</li>
+                  <li>с сервера загружаются данные о других персонажах; при изменении настроек персонажа данные о волшебниках фильтруются и отрисовываются в окне похожих персонажей;</li>
+                  <li>окно настроек можно перемещать по экрану;</li>
+                  <li>по окончании игры выводится окно со статистикой.</li>
+                </ul>
+                <div class="portfolio__btn-wrapper">
+                  <a class="portfolio__btn" href="https://github.com/KateBarkova/672853-code-and-magick.git" target="_blank">Открыть репозиторий</a>
+                  <a class="portfolio__btn" href="https://KateBarkova.github.io/672853-code-and-magick/" target="_blank">Открыть страницу</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio__item">
+            <h3 class="portfolio__item-title">Тестовое задание Avito</h3>
+            <div class="portfolio__container">
+              <a class="portfolio__item-image" href="https://katebarkova.github.io/avito/" target="_blank">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="img/avito-tablet@1x.jpg">
+                  <img src="img/avito-mobile@1x.jpg" alt="Avito">
+                </picture>
+              </a>
+              <div class="portfolio__wrapper">
+                <p class="portfolio__info-text">Реализация тестового задания Авито.</p>
+                <p class="portfolio__info-text">Одностраничный проект просмотра списка объявлений по продаже автомобилей, ноутбуков, недвижимости и фотоаппаратов от частных лиц и компаний и показом подробной информации по каждому из них.</p>
+                <p class="portfolio__info-text">Данные загружаются с сервера. На основании загруженных данных формируется список товаров. С помощью обратного геокодирования API Яндекс.Карт отображается адрес продажи.</p>
+                <p class="portfolio__info-text">Список товаров можно отфильтровать по категории и стоимости, а так же настроить сортировку – по популярности, по уменьшению или увеличению цены.</p>
+                <p class="portfolio__info-text">При выборе категории по каждой из них появляются дополнительные контролы для фильтрации.</p>
+                <p class="portfolio__info-text">Товары можно добавлять в избранное и просматривать список избранных товаров отдельно. Фото товаров меняются раз в несколько секунд.</p>
+                <p class="portfolio__info-text">По каждому объявлению можно посмотреть подробную карточку товара, с картой, рейтингом и названием продавца.</p>
+                <p class="portfolio__info-text">Более подробно реализованные требования можно посмотреть в техническом задании.</p>
+                <div class="portfolio__btn-wrapper">
+                  <a class="portfolio__btn" href="https://github.com/KateBarkova/avito.git" target="_blank">Открыть репозиторий</a>
+                  <a class="portfolio__btn" href="https://KateBarkova.github.io/avito/" target="_blank">Открыть страницу</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <a class="portfolio__up up" href="#menu">В начало страницы</a>
+        </article>
+      </main>
+      <footer class="contacts" id="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title title">Контакты</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--email">
+              <a class="contacts__link" href="mailto:barkova.kate@yandex.ru">
+                barkova.kate@yandex.ru
+              </a>
+            </li>
+            <li class="contacts__item contacts__item--phone">
+              +7 (926) 324-13-50
+            </li>
+            <li class="contacts__item contacts__item--gh">
+              <a class="contacts__link" href="https://github.com/KateBarkova">
+                Профиль на GitHub
+              </a>
+            </li>
+          </ul>   
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
-
